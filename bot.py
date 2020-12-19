@@ -1,6 +1,6 @@
 #импортировать нашу библиотеку и подключить токен бота
 import telebot;
-bot = telebot.TeleBot('%ваш токен%');
+bot = telebot.TeleBot('964951922:AAF3lTBl1GIENzoboUqxzs9FHxmZoe7Szkw');
 #объявим метод для получения текстовых сообщений
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
